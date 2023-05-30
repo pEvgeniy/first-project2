@@ -1,4 +1,4 @@
-package ru.mpei.lesson2;
+package ru.mpei.lesson1;
 
 public class EmptyClass {
     public static void main(String[] args) {

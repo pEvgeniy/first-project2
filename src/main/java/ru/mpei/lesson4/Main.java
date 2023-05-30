@@ -20,10 +20,10 @@ public class Main {
                 System.out.println("Мы нашли Хому!");
             }
             if (hamster.age > 1) {
-                System.out.println("Мы нашли хомяка старше 1 года!");
+                System.out.println("Мы нашли хомяка старше 1 года! Это " + hamster.name);
             }
             if (hamster.weighInKg != 0.2) {
-                System.out.println("Мы нашли всех хомяков, у которых вес не равен 0.2 кг!");
+                System.out.println("Мы нашли хомяка, у которого вес не равен 0.2 кг! Это " + hamster.name);
             }
         }
     }
