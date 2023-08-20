@@ -1,12 +1,12 @@
 package ru.mpei.lesson5;
 
-import java.util.LinkedHashMap;
+import java.util.HashMap;
 import java.util.Map;
 
 public class MapExample {
     public static void main(String[] args) {
-//        Map<Integer, String> group = new HashMap<>();
-        Map<Integer, String> group = new LinkedHashMap<>();
+        Map<Integer, String> group = new HashMap<>();
+//        Map<Integer, String> group = new LinkedHashMap<>();
         group.put(1, "Ivan");
         group.put(2, "Natalia");
         group.put(3, "Andrei");
@@ -23,7 +23,7 @@ public class MapExample {
         for (Map.Entry<Integer, String> groupEntry : group.entrySet()) {
             int key = groupEntry.getKey();
             String value = groupEntry.getValue();
-            System.out.println("key: " + key + ", value" + value);
+            System.out.println("key: " + key + ", value " + value);
         }
     }
 }
